@@ -1,0 +1,62 @@
+@media screen and (min-width: 480px) {
+	#info {
+		width: 50%;
+		float: left;
+	}
+
+	#contatti {
+		width: 40%;
+		float: right;
+	}
+}
+
+@media screen and (min-width: 680px) {
+
+/********************************************
+ABOUT
+********************************************/	
+	.foto-profilo {
+		float: left;
+		margin: 0 5% 50px 0;
+	}
+
+/********************************************
+PORTFOLIO
+********************************************/
+
+#gallery li {
+	width: 28.333333333%
+}
+
+/********************************************
+HEADER
+********************************************/
+
+#logo {
+	float: left;
+	width: 45%
+	margin-left:5%;
+	text-align: left;
+}
+
+nav {
+	float: right;
+	width: 45%;
+	margin-right: 5%;
+	background: none;
+	text-align: right;
+	padding-top: 25px;
+}
+
+nav a {
+	padding: 0 5%;
+	font-weight: bold;
+	font-weight: 1.2em;
+}
+
+.main-header {
+	border-bottom: 5px solid #008080;
+}
+
+
+
